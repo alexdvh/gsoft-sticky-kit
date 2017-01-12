@@ -1,0 +1,26 @@
+{
+  "name": "gsoft-sticky-kit",
+  "main": "gsoft-sticky-kit.js",
+  "authors": [
+    "Hoangdv <hoangdv1112@gmail.com>"
+  ],
+  "description": "AngularJS directive for Sticky-Kit",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "sticky-kit",
+    "sticky"
+  ],
+  "license": "MIT",
+  "homepage": "git@bitbucket.org:hoangdean/gsoft-sticky-kit.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sticky-kit": "~1.1.2"
+  }
+}
