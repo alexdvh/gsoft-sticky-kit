@@ -8,7 +8,7 @@ angular.module("gsoft-sticky-kit", [])
             restrict: "A",
             link: function(scope, element, attributes) {
                 var customOptions, options, stickyElement, stickyKitAttribute;
-                stickyKitAttribute = scope.$eval(attributes.stickyKit);
+                stickyKitAttribute = scope.$eval(attributes.gsoftStickyKit);
                 customOptions = typeof stickyKitAttribute == 'object' ? stickyKitAttribute : {};
                 options = {
                     sticky_class: "is_stuck",
